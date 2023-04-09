@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: px solid red;
+
+
+}
+
+
+.header{
+    border: px solid red;
+    background-color: #3391C1;
+  }
+  
+  .h-ul{
+    border: 2px solid yellow;
+    display: flex;
+    height: 80px;
+    justify-content: left;
+    width: 100%;
+    margin: 0px auto;
+    list-style:none ;
+  }
+  
+  .h-ul a{
+    border: px solid black;
+    text-decoration: none;
+    padding: 20px 10px ;
+    margin-right: 20px;
+    line-height: 110px;
+    /* FONTS */
+  
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .h-ul a:hover{
+    color: red;
+    transition: 1s ease;
+  }
+  
+  .menu-logo-img{
+    border: 2px solid brown;
+    width: 250px;
+    float: left;
+    
+    margin: 0px auto;
+  }
+  
+  #check{
+    display: none;
+  }
+  
+  .checkbox, .checkbox2{
+    display: none;
+  }
+  @media screen and (max-width:900px) {
+    
+    *{
+        border: px solid black;
+    }
+    .strip{
+      display: none;
+    }
+    .header{
+        position: fixed;
+        height: 110%;
+        left: -100%;
+        width: 90%;
+        border: px solid brown;
+        display: block;
+        background-color: #3391C1;
+        transition: left 0.5s ease;
+        z-index: 10000;
+    }
+    .logo{
+      display: none;
+    }
+    .h-ul{
+        position: relative;
+        height: auto;
+        float: right;
+        border: px solid red;
+        display: block;
+        width: 70%;
+    }
+  
+    .h-ul li{
+        display: block;
+        height: 50px;
+    }
+  
+    .menu-logo-img{
+        display: none;
+    }
+  
+    .h-ul a{
+        padding: 10px;
+        color: #FEFEFE;
+    }
+  
+    .checkbox, .checkbox2{
+        border: px solid red;
+        width: 100%;
+        display: inline-block;
+        background: #3391C1;
+    }
+  
+    .checkbox2{
+        display: none;
+    }
+  
+    .fa-bars , .fa-xmark{
+        float: right;
+        font-size: 35px;
+        margin-right: 10px;
+        display: block;
+        color: #FEFEFE;
+    }
+  
+    #check:checked ~ .header{
+        left: -10%;
+    }
+  
+  
+  
+    #check:checked ~ .checkbox{
+        display: none;
+    }
+  
+    #check:checked ~ .checkbox2{
+        display: inline-block;
+    }
+  }
+  
+  @media screen and (min-width:701px) and (max-width:900px) {
+    
+    *{
+      border: px solid black;
+  }
+  .header{
+      position: fixed;
+      height: 110%;
+      left: -100%;
+      width: 90%;
+      border: px solid brown;
+      display: block;
+      background-color: #3391C1;
+      transition: left 0.5s ease;
+  }
+  
+  .h-ul{
+      position: relative;
+      height: auto;
+      float: right;
+      border: px solid red;
+      display: block;
+      width: 70%;
+  }
+  
+  .h-ul li{
+      display: block;
+      height: 50px;
+  }
+  
+  .menu-logo-img{
+      display: none;
+  }
+  
+  .h-ul a{
+      padding: 10px;
+      color: #FEFEFE;
+  }
+  
+  .checkbox, .checkbox2{
+      border: px solid red;
+      width: 100%;
+      display: inline-block;
+      background: #3391C1;
+  }
+  
+  .checkbox2{
+      display: none;
+  }
+  
+  .fa-bars , .fa-xmark{
+      float: right;
+      font-size: 35px;
+      margin-right: 10px;
+      display: block;
+      color: #FEFEFE;
+  }
+  
+  #check:checked ~ .header{
+      left: -10%;
+  }
+  
+  
+  
+  #check:checked ~ .checkbox{
+      display: none;
+  }
+  
+  #check:checked ~ .checkbox2{
+      display: inline-block;
+  }
+  }
+  
+  
+  

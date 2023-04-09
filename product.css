@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@400;600;800;900&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700;900&family=Raleway:wght@600&family=Roboto:wght@100;300;400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monteserrat' , sans-serif;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.maingrid{
+    border: px solid green;
+    /* background-color: red; */
+    height: 700px;
+    width: 90%;
+    margin: 50px auto;
+    box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, .2);
+
+    /*GRID*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 5px;
+
+}
+
+.left{
+    border: px solid red;
+    background-color: red;
+}
+
+
+.right{
+    border: px solid blue;
+}
+hr{
+    width: 70px;
+    background-color: #0a0a0a;
+    display: block;
+    height: 2px;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+.heading{
+    border: px solid yellow;
+
+    /* FONTS */
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 40px;
+    color: #0a0a0a;
+}
+
+.rating{
+    border: px solid red;
+    width: 50%;
+    height: 20px;
+}
+
+.fa-star{
+    color: orange;
+    margin-top: 0px;
+}
+
+.price{
+    border: px solid red;
+    margin-top: 20px;
+
+    /* FONTS */
+    font-family: 'Monteserrat',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.price-span{
+    display: block;
+}
+
+.about{
+    border: px solid red;
+    margin-top: 30px;
+}
+
+.aboutus-span{
+    border: px solid black;
+    /* FONT */
+    font-family: 'Monteserrat',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a0a0a;
+}
+
+.detail-span{
+    border: 1px solid transparent;
+    text-align: left;
+    display: block;
+    width: 100%;
+
+    /* FONTS */
+
+    color: gray;
+}
+.benefits{
+    border: px solid red;
+    margin-top: 40px;
+
+}
+.benefits-span{
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ans-benefits{
+    color: gray;
+}
+.fa-circle-check{
+    color: red;
+}
+
+.addtocart{
+    border: px solid red;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.addbtn:hover{
+    background-color: #fff;
+    color: red;
+}
